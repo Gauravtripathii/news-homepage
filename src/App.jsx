@@ -1,7 +1,13 @@
+import Navigation from "./components/Navigation";
+import New from "./components/New";
+import Flash from "./components/Flash";
+
 function App() {
   return (
     <div className="App">
-      <h1>hello.</h1>
+      <Navigation />
+      <New />
+      <Flash />
     </div>
   );
 }
