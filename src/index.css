@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 
 :root {
   /* sizes */
@@ -6,10 +6,10 @@
   --desktop: 1440px;
   --para-font-size: 15px;
 
-  --inter: 'Inter', sans-serif;
+  --inter: "Inter", sans-serif;
   --inter-regular: 400;
-  --inter-bold: 400;
-  --inter-extra-bold: 400;
+  --inter-bold: 700;
+  --inter-extra-bold: 800;
 
   /* colours */
   --soft-orange: hsl(35, 77%, 62%);
@@ -24,4 +24,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
 }

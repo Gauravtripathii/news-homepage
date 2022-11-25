@@ -48,17 +48,17 @@ export const new_news = [
 
 export const news_flash = [
     {
-        id: 01,
+        id: 1,
         title: "Reviving Retro PCs",
         para: "What happens when old PCs are given modern upggrades?",
     },
     {
-        id: 02,
+        id: 2,
         title: "Top 10 Laptops of 2022",
         para: "Our best piicks for various needs and budgets.",
     },
     {
-        id: 03,
+        id: 3,
         title: "The Growth of Gaming",
         para: "How the panndemic has sparked fresh oppertunities.",
     },

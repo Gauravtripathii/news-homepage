@@ -1,0 +1,46 @@
+nav {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--inter);
+  font-weight: var(--inter-regular);
+}
+
+nav .hide-menu {
+  display: none;
+}
+nav .show-menu {
+  position: absolute;
+  padding: 20px;
+  font-size: 20px;
+  right: 0;
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav .trans {
+  position: absolute;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 40%;
+  height: 100vh;
+}
+
+nav .close-icon {
+  text-align: right;
+  height: 20%;
+}
+
+nav ul {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  list-style-type: none;
+}
