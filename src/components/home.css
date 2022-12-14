@@ -35,3 +35,16 @@
 .home .button:hover {
     background-color: var(--very-dark-blue);
 }
+
+@media only screen and (min-width: 1200px) {
+  .home {
+    width: 60%;
+    height: 70%;
+    align-items: center;
+  }
+  .home .profile-image {
+    background-image: url(../assets/images//image-web-3-desktop.jpg);
+    height: 50%;
+    width: 100%;
+  }
+}
