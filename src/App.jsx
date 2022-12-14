@@ -1,7 +1,7 @@
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import New from "./components/New";
-import Flash from "./components/Flash";
+// import Flash from "./components/Flash";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navigation />
       <Home />
       <New />
-      <Flash />
+      {/* <Flash /> */}
     </div>
   );
 }

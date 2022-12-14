@@ -9,6 +9,10 @@ nav {
   font-weight: var(--inter-regular);
 }
 
+nav .menu-open {
+  margin: 10px;
+}
+
 nav .hide-menu {
   display: none;
 }
@@ -22,6 +26,7 @@ nav .show-menu {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 nav .trans {
