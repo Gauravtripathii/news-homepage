@@ -35,4 +35,9 @@
   .App {
     height: 100vh;
   }
+  .top {
+    height: 65%;
+    width: 100%;
+    display: flex;
+  }
 }

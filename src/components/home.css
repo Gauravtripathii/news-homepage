@@ -17,6 +17,8 @@
 .home .title {
   font-weight: bold;
   font-size: 45px;
+  height: 30%;
+  padding-top: 20px;
 }
 
 .home .para {
@@ -36,15 +38,32 @@
     background-color: var(--very-dark-blue);
 }
 
+.home .right {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 @media only screen and (min-width: 1200px) {
   .home {
-    width: 60%;
-    height: 70%;
-    align-items: center;
+    width: 65%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
-  .home .profile-image {
-    background-image: url(../assets/images//image-web-3-desktop.jpg);
-    height: 50%;
+  .home > .profile-image {
+    background-image: url(../assets//images/image-web-3-desktop.jpg);
     width: 100%;
+    height: 55%;
+  }
+  .home .title {
+    width: 40%;
+    height: 45%;
+  }
+  .home .right {
+    width: 60%;
+    height: 45%;
   }
 }
